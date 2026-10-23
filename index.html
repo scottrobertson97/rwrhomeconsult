@@ -192,6 +192,7 @@
     .social .eyebrow { margin-bottom: 14px; }
     .social h2 { margin-bottom: 16px; font-size: clamp(34px, 3.2vw, 46px); }
     .social-intro { max-width: 430px; margin: 0; color: var(--muted); font-size: 14px; }
+    .social-links { display: grid; gap: 16px; min-width: 0; }
     .social-link { display: flex; align-items: center; gap: 20px; min-width: 0; padding: 28px; border: 1px solid var(--line); background: var(--white); transition: border-color .2s, background .2s; }
     .social-link:hover { border-color: var(--green); background: #f0f3e9; }
     .social-icon { display: grid; place-items: center; flex-shrink: 0; width: 52px; height: 52px; background: var(--navy); color: white; }
@@ -552,21 +553,28 @@
     <section class="social" id="social" aria-labelledby="social-title">
       <div class="wrap social-inner">
         <div>
-          <span class="eyebrow">Stay connected</span>
-          <h2 id="social-title">Find us on Facebook.</h2>
-          <p class="social-intro">Connect with RWR Remodeling Consultants Inc. and follow along on Facebook.</p>
+          <span class="eyebrow">Social media</span>
+          <h2 id="social-title">Let’s stay connected.</h2>
+          <p class="social-intro">Follow RWR Remodeling Consultants Inc. on Facebook and Instagram.</p>
         </div>
-        <a class="social-link" href="https://www.facebook.com/rwrhomeconsult" target="_blank" rel="noopener noreferrer" aria-label="Visit RWR Remodeling Consultants Inc. on Facebook (opens in a new tab)">
-          <span class="social-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M14 22v-9h3l.5-4H14V7c0-1.2.4-2 2-2h2V1.4A25 25 0 0 0 15 1c-3 0-5 1.8-5 5v3H7v4h3v9z"/></svg></span>
-          <span class="social-account"><strong>RWR Remodeling Consultants Inc.</strong><span>@rwrhomeconsult · Facebook</span></span>
-          <svg class="arrow" aria-hidden="true" viewBox="0 0 24 24"><path d="M5 19 19 5M5 5h14v14"/></svg>
-        </a>
+        <div class="social-links">
+          <a class="social-link" href="https://www.facebook.com/rwrhomeconsult" target="_blank" rel="noopener noreferrer" aria-label="Visit RWR Remodeling Consultants Inc. on Facebook (opens in a new tab)">
+            <span class="social-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M14 22v-9h3l.5-4H14V7c0-1.2.4-2 2-2h2V1.4A25 25 0 0 0 15 1c-3 0-5 1.8-5 5v3H7v4h3v9z"/></svg></span>
+            <span class="social-account"><strong>RWR Remodeling Consultants Inc.</strong><span>@rwrhomeconsult · Facebook</span></span>
+            <svg class="arrow" aria-hidden="true" viewBox="0 0 24 24"><path d="M5 19 19 5M5 5h14v14"/></svg>
+          </a>
+          <a class="social-link" href="https://www.instagram.com/rwrhomeconsult/" target="_blank" rel="noopener noreferrer" aria-label="Visit RWR Remodeling Consultants Inc. on Instagram (opens in a new tab)">
+            <span class="social-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="17.5" cy="6.5" r="1.2"/></svg></span>
+            <span class="social-account"><strong>RWR Remodeling Consultants Inc.</strong><span>@rwrhomeconsult · Instagram</span></span>
+            <svg class="arrow" aria-hidden="true" viewBox="0 0 24 24"><path d="M5 19 19 5M5 5h14v14"/></svg>
+          </a>
+        </div>
       </div>
     </section>
   </main>
   <footer class="site-footer">
     <div class="wrap">
-      <div class="footer-top"><div class="footer-brand"><a href="#home" aria-label="Back to RWR home"><img src="assets/rwr.svg" alt="RWR Remodeling Consultants Inc." width="130" height="76" loading="lazy"></a><p>Your home.<br>Your advocate.</p></div><nav class="footer-nav" aria-label="Footer navigation"><a href="#services">Our services</a><a href="#work">Home inspiration</a><a href="#about">About RWR</a><a href="#contact">Get in touch</a><a href="https://www.facebook.com/rwrhomeconsult" target="_blank" rel="noopener noreferrer" aria-label="Facebook (opens in a new tab)">Facebook</a></nav></div>
+      <div class="footer-top"><div class="footer-brand"><a href="#home" aria-label="Back to RWR home"><img src="assets/rwr.svg" alt="RWR Remodeling Consultants Inc." width="130" height="76" loading="lazy"></a><p>Your home.<br>Your advocate.</p></div><nav class="footer-nav" aria-label="Footer navigation"><a href="#services">Our services</a><a href="#work">Home inspiration</a><a href="#about">About RWR</a><a href="#contact">Get in touch</a><a href="https://www.facebook.com/rwrhomeconsult" target="_blank" rel="noopener noreferrer" aria-label="Facebook (opens in a new tab)">Facebook</a><a href="https://www.instagram.com/rwrhomeconsult/" target="_blank" rel="noopener noreferrer" aria-label="Instagram (opens in a new tab)">Instagram</a></nav></div>
       <div class="footer-bottom"><span>© <span id="year">2026</span> RWR Remodeling Consultants Inc. All rights reserved.</span><span>Westchester, NY &amp; Fairfield, CT <span aria-hidden="true">&nbsp; / &nbsp;</span> <a href="#home">Back to top ↑</a></span></div>
     </div>
   </footer>
